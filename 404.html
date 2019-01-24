@@ -1,27 +1,103 @@
+<!doctype html>
 <html>
-<meta charset="utf-8">
-<title>Inpixio Photo Clip</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
-<meta name="apple-mobile-web-app-status-bar-style" content="yes" />
-<base href="https://capitalhumain.github.io/inpixio-mobile-lp/"><link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes; target-densityDpi=device-dpi" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+  <base href="https://capitalhumain.github.io/inpixio-mobile-lp/">  <title>Inpixio Photo Clip</title>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <style type="text/css">
+    body,
+    html {
+      height: 100%;
+      margin: 0px;
+    }
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js" async></script>
+    .app-loading {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
 
+    .app-loading .spinner {
+      height: 200px;
+      width: 200px;
+      animation: rotate 2s linear infinite;
+      transform-origin: center center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .app-loading .spinner .path {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      animation: dash 1.5s ease-in-out infinite;
+      stroke-linecap: round;
+      stroke: #ddd;
+    }
+
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+      }
+
+      50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+      }
+
+      100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+      }
+    }
+
+  </style>
+<script src="https://fast.wistia.com/embed/medias/nqq84gf7dq.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 <link rel="stylesheet" href="styles.css"></head>
+<body>
+  <inpixio-root>
+    <div class="app-loading">
+      <div class="logo">
+        <svg class="spinner" viewBox="25 25 50 50">
+          <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+      </div>
+  </inpixio-root>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-68328960-1', 'auto');
 
-<body id="app">
-  <script src="https://fast.wistia.com/embed/medias/xtn87n6r5s.jsonp" async></script>
-  <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-  <inpixio-app>loading</inpixio-app>
-
-
+  </script>
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="main.js"></script></body>
 
 </html>
