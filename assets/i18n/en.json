@@ -1,4 +1,12 @@
 {
+  "inpixio.home.eraser.title": "Erase with a click",
+  "inpixio.home.eraser.tagline": "Remove Object with just a click",
+  "inpixio.home.photomontage.title": "Photomontage",
+  "inpixio.home.photomontage.tagline": "Cut out & replace background",
+  "inpixio.home.cropclone.title": "Simply Touch Up",
+  "inpixio.home.cropclone.tagline": "Crop Clone & Much more",
+  "inpixio.home.tagline": "Easily Coutout & Erase Unwanted Objects",
+  "inpixio.home.action": "PLAY DEMO",
   "inpixio.about.change-theme": "Change Theme",
   "inpixio.about.check-blogs": "or check blogs about",
   "inpixio.about.contributors.description1": "Want to start contributing to open source with Angular?",

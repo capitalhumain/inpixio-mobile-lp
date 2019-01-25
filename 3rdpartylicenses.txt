@@ -552,10 +552,10 @@ Awesome, nor vice versa. **Please do not use brand logos for any purpose except
 to represent the company, product, or service to which they refer.**
 
 
-@ngx-translate/core
+@ngrx/store
 MIT
 
-@ngrx/store
+@ngx-translate/core
 MIT
 
 core-js
