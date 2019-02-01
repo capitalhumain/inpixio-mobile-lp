@@ -314,6 +314,9 @@ MIT
 @ngrx/effects
 MIT
 
+ngx-cookie-service
+MIT
+
 ngx-embed-video
 MIT
 MIT License
