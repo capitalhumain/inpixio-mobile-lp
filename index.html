@@ -2,22 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, target-densityDpi=device-dpi" />
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/manifest.json">
+
   <base href="https://capitalhumain.github.io/inpixio-mobile-lp/">  <title>Inpixio Photo Clip</title>
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <style type="text/css">
-    body,
-    html {
-      min-height: 100%;
-      min-height: 100vh;
-      margin: 0px;
-      overflow: hidden;
-      -webkit-overflow-scrolling: touch;
-    }
 
     .app-loading {
       position: relative;
@@ -82,11 +78,12 @@
       'culture': 'EN'
     }
   });
+
 </script>
 
 
 <link rel="stylesheet" href="styles.css"></head>
-<body style="width: 100%; height: calc(100%);">
+<body style="width: 100%; height: calc(100%);" id="goFS">
   <inpixio-root>
     <div class="app-loading">
       <div class="logo">
@@ -99,6 +96,7 @@
 
 
 <script type="text/javascript">
+
   (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({
@@ -112,6 +110,8 @@
     j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
     f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-PGMMW5N');
+
+
 </script>
 <script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="main.js"></script></body>
